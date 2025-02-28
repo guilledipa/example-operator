@@ -1,0 +1,10 @@
+apiVersion: apps.example.com/v1alpha1
+kind: Example
+metadata:
+  labels:
+    app.kubernetes.io/name: example-operator
+    app.kubernetes.io/managed-by: kustomize
+  name: example-sample
+spec:
+  size: 3
+  message: "Hola desde Kubernetes Operator!"
